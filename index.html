@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Ten little choices. One literary home. Discover your literary genre with ten favorite things and Codyza Quiz.">
+    <title>Codyza Quiz — What literary genre are you?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/questions.js" defer></script>
+    <script src="js/engine.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="masthead">
+        <div class="issue wrap"><span>ISSUE NO. 07 · THE READING ROOM EDITION</span><span>☕ PULL UP A CHAIR — IT’S FREE
+                TO PLAY</span></div>
+        <div class="navigation wrap">
+            <nav aria-label="Main navigation"><a href="#quizzes" data-home>Quizzes</a><a href="#shelf" data-shelf>The
+                    Shelf</a><a href="#how-to-play" data-about>About</a></nav>
+            <a class="wordmark" href="#quizzes" data-home aria-label="Codyza Quiz home"><span class="logo"
+                    aria-hidden="true"><img src="images/book-icon.svg" alt="" width="24" height="24"></span>Codyza <em>Quiz</em></a>
+            <a class="outline all-quizzes" href="#quizzes" data-home>All quizzes →</a>
+        </div>
+    </header>
+    <main id="main">
+        <div id="landing">
+            <section class="hero wrap" id="quizzes" aria-labelledby="page-title">
+                <div class="hero-copy">
+                    <div class="eyebrow"><span class="badge">FEATURED QUIZ</span><span class="handwritten">— this week’s
+                            cover story</span></div>
+                    <h1 id="page-title">What<br>literary <em>genre</em><br>are you?</h1>
+                    <p class="subtitle">Pick a dessert, fall for a painting, find your color. We’ll find the shelf where
+                        you belong.</p>
+                    <button id="start-button" class="primary">Find my genre <span class="arrow"
+                            aria-hidden="true">→</span></button>
+                    <p class="fine-print">◷ 10 rounds · about 4 minutes · no sign-up</p>
+                </div>
+                <figure class="bookshelf">
+                    <div class="photo-window"><img src="images/books.jpg"
+                            alt="Colorful, well-loved books lined up on a reading room shelf" fetchpriority="high">
+                    </div>
+                    <figcaption class="staff-note">Seven genres.<br>One story.<br>Which is yours?</figcaption>
+                    <div class="wooden-shelf" aria-hidden="true"></div>
+                    <div class="shelf-caption"><span>THE READING ROOM</span><span>A place for your next chapter.</span>
+                    </div>
+                </figure>
+                <section id="how-to-play" class="how-to-play" aria-labelledby="how-title">
+                    <h2 id="how-title" class="small-heading">HOW TO PLAY</h2>
+                    <p class="welcome-rules">Pick a favorite in each of 10 rounds to discover your literary genre.</p>
+                </section>
+            </section>
+            <section id="shelf" class="shelf-details wrap" hidden aria-labelledby="shelf-title">
+                <h2 id="shelf-title" tabindex="-1">A shelf for every kind of reader.</h2>
+                <div id="genre-descriptions" class="genre-descriptions"></div>
+            </section>
+        </div>
+
+    </main>
+    <div class="genre-band" aria-label="The seven literary genres"><span>Romance</span><b
+            aria-hidden="true">★</b><span>Horror</span><b aria-hidden="true">★</b><span>Fantasy</span><b
+            aria-hidden="true">★</b><span>Sci-Fi</span><b aria-hidden="true">★</b><span>Adventure</span><b
+            aria-hidden="true">★</b><span>History</span><b aria-hidden="true">★</b><span>Drama</span></div>
+    <footer class="wrap">
+        <p><strong>Codyza Quiz</strong> · Little quizzes for curious readers.</p>
+        <p>Powered by <a href="https://www.codyza.com/">Codyza</a></p>
+    </footer>
+</body>
+
+</html>

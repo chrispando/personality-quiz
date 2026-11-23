@@ -1,0 +1,23 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor files
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# Local environment settings (keep example files)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Optional local JavaScript tooling
+node_modules/
+.npm/
+coverage/
+*.log

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your literary story — Codyza Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/questions.js" defer></script>
+    <script src="js/engine.js" defer></script>
+    <script src="js/quiz.js" defer></script>
+</head>
+
+<body class="play-page"><a class="skip-link" href="#round">Skip to question</a>
+    <header class="play-header">
+        <div class="play-wrap header-grid"><a class="wordmark" href="index.html" aria-label="Codyza Quiz home"><span
+                    class="logo" aria-hidden="true"><img src="images/book-icon.svg" alt="" width="24" height="24"></span>Codyza <em>Quiz</em></a>
+            <div id="progress-area"></div>
+        </div>
+    </header>
+    <main class="play-wrap play-main" id="round"></main>
+    <div class="play-actions">
+        <div class="play-wrap action-inner">
+            <p id="action-status" role="status" aria-live="polite" aria-atomic="true">Pick a favorite to begin this
+                round.</p><button id="next-question" class="next-button" disabled>Next question <span
+                    aria-hidden="true">→</span></button>
+        </div>
+    </div>
+    <footer class="play-wrap"><a href="index.html">The reading room</a><button id="restart" class="text-button">Restart
+            quiz</button>
+        <p>Powered by <a href="https://www.codyza.com/">Codyza</a></p>
+    </footer><noscript>
+        <p class="play-wrap">Please enable JavaScript to play this quiz.</p>
+    </noscript>
+</body>
+
+</html>
